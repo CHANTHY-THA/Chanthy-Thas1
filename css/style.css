@@ -11,7 +11,7 @@ body{
 .container{
     width: 100%;
     height: 10vh;
-    background: rgba(109, 193, 245, 0.986);
+    background: rgba(107, 176, 219, 0.986);
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -60,6 +60,7 @@ button{
     align-items: center;
     /* background: lightblue; */
     background-image: url("../image/cv1.jpeg");
+    background-size: cover;
 }
 ul p{
     margin-left: 5%;
@@ -79,11 +80,15 @@ h3{
     margin-left: 5%;
     margin-top: 5%;
 }
+h4{
+    margin-bottom: 0;
+    display: none;
+}
 .text{
     background: rgba(0,0,0,0.4);
     color: #fff;
     font-family: sans-serif;
-    height: 55vh;
+    height: 60vh;
     margin-right: 3%;
     width: 60%;
 }
@@ -95,15 +100,14 @@ h3{
     align-items: center;
     justify-content: center;
     margin-left: 6%;
-    background:lightpink;
     border-radius: 350px;
     margin-top: 37%;
 
 }
 img{
     border-radius: 360px;
-    height: 42vh;
-    width: 100%;
+    height: 50vh;
+    margin-left: 9%;
 }
 /* body */
 .body{
@@ -111,7 +115,9 @@ img{
     width: 100%;
     text-align: center;
     font-family: sans-serif;
+    margin-left: 10%;
 }
+
 /* footer  */
 footer{
     font-family: cursive;
@@ -139,4 +145,69 @@ text{
 span{
     font-size: 22px;
     font-family:sans-serif;
+}
+frame{
+    width: 50%;
+    height: 50vh;
+}
+/* Responsive */
+@media (max-width:700px) and (min-width:400px){
+    .picture{
+        margin-top: -5%;
+        margin-left: -1px;
+        display: inline;
+        
+    }
+    img{
+        height: 30vh;
+        border-radius: 0px;
+        margin-right: -10px;
+    }
+    ul li{
+        padding: 25px;
+        font-size: 14px;
+    }
+    .container{
+        justify-content: center;
+        display: flex;
+    }
+    .text{
+        width: 58%;
+        height: 48vh;
+        margin-right: 6px;
+    }
+    footer{
+        position: none;
+    }
+    p{
+        margin-right: 1%;
+    }
+    .body{
+        width: 80%;
+        height: 60vh;
+    }
+    .header{
+        height: 50vh;
+    }
+    h4{
+        display: block;
+        margin-left: 55%;
+        width: 100%;
+        color: #fff;
+        font-family: serif;
+    }
+}
+@media (max-width:900px) and (min-width:701px){
+    .picture{
+       
+        margin-top: -5%;
+    }
+    img{
+        height: 40vh;
+    }
+    .text{
+        width: 58%;
+        height: 70vh;
+    }
+
 }

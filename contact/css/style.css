@@ -1,14 +1,20 @@
+
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-ul{
-    display: flex;
-    list-style: none;
+.container{
     position: sticky;
     top: 0;
-    background: lightblue;
+}
+ul{
+    display: flex;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background: rgb(89, 165, 190);
     margin: 0;
 }
 ul li{
@@ -18,8 +24,129 @@ ul li{
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #fff;
 }
 ul li a:hover{
-   color: rgb(4, 13, 17);
+   color: rgb(18, 18, 19);
+}
+/* Contact */
+.word{
+   margin: 4%;
+}
+p{
+    font-size: 17px;
+}
+.con{
+    font-size: 25px;
+    color: #fff;
+
+}
+.cam{
+    font-size: 25px;
+    color: #fff;
+   
+   
+}
+article{
+    text-decoration: underline rgb(219, 214, 214);
+}
+.contact{
+    background: rgb(69, 139, 110);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    width: 50%;
+    color: #fff;
+    margin-right: 6%;
+    margin-top: 3%;
+
+}
+input[type=text],
+input[type=email],
+input[type=password],
+textarea{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus:hover{
+    box-shadow: 0 0 5px #43D1AF;
+}
+input[type=submit]{
+    margin-left: 80%;
+    width: 20%;
+    height: 6vh;
+    background: #3cb371;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/* hover  */
+input[type=submit]:hover{
+    background: #308355;
+}
+textarea:focus:hover{
+    box-shadow: 0 0 5px #43D1AF;
+}
+/* Responsive */
+@media (max-width:700px) and (min-width:400px){
+    ul li {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .contact{
+        display: inline;
+        height: 100vh;
+        width: 100%;
+    }
+    .word{
+        margin-left: 10%;
+        background: rgba(0,0,0,0.3);
+    }
+    form{
+       
+        margin-left: 10%;
+        width: 80%;
+        height: 68vh;
+        color: black;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    textarea{
+        color: black;
+    }
+    input[type=submit]{
+        margin-left: 35%;
+        margin-bottom: 10%;
+        width: 35%;
+    }
+    .con ,.cam{
+        color: black;
+        
+    }
+    article , p{
+        margin: 5%;
+    }
+    article{
+        text-decoration: none;
+    }
+
 }
