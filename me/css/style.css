@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.image{
+    width: 100%;
+}
+.card{
+    margin-left: 75%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background: rgb(56, 101, 116);
+}
+.container{
+    color: #fff;
+    margin-left: 10%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    background: rgb(58, 107, 116);
+    margin: 0;
+   height: 10vh;
+   align-items: center;
+}
+ul li{
+    padding: 30px;
+
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+ul li a:hover{
+   color: rgb(66, 65, 65);
+}

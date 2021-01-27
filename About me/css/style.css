@@ -12,5 +12,24 @@ h1{
 }
 .year{
     margin-left: 20%;
-    background: lightblue;
+}
+.botton{
+    width: 200px;
+    height: 50px;
+    background: rgb(22, 180, 233);
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.botton:hover{
+    opacity: 0.8;
+}
+.down{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 60vh;
+    margin-right: 5%;
 }
