@@ -102,6 +102,10 @@ input[type=submit]:hover{
 textarea:focus:hover{
     box-shadow: 0 0 5px #43D1AF;
 }
+iframe{
+    width:670px;
+    height:300px;
+}
 /* Responsive */
 @media (max-width:700px) and (min-width:410px){
     nav{
@@ -153,5 +157,44 @@ textarea:focus:hover{
     article{
         text-decoration: none;
     }
+    .ifram{
+        width: 100%;
+        margin-left: 0;
+    }
 
+}
+@media (max-width:400px) {
+    ul li a{
+        font-size: 14px;
+    }
+    ul li{
+        padding: 5px;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    article{
+        font-size:17px;
+    }
+    .contact{
+        display: inline;
+    }
+    .word{
+        display: none;
+    }
+    form{
+        margin-top: 10%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    input[type=submit]{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .ifram{
+        width: 100%;
+        margin-left: 1%;
+    }
 }

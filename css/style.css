@@ -226,7 +226,7 @@ span{
 }
 
 /* Responsive */
-@media (max-width:420px){
+@media (max-width:400px){
     img{
         height: 28vh;
         margin-left: 26%;
@@ -246,6 +246,10 @@ span{
         height: 50vh;
         display: inline;
     }
+    .container ul li{
+        padding: 12px;
+
+    }
     p{
         font-family: sans-serif;
         color: #fff;
@@ -254,10 +258,10 @@ span{
     }
     .header p{
         display: block;
-        margin-left: 29%;
+        margin-left: 34%;
     }
     .body{
-        width: 80%;
+        width: 94%;
         margin-left: 4%;
     }
     .header{
@@ -282,14 +286,16 @@ span{
     }
     h2{
         font-size: 15px;
+        text-align: center;
     }
     h1{
         font-size: 25px;
         text-align: center;
     }
     .skill{
-        margin-left: 9%;
-        height: 50vh;
+        width: 94%;
+        margin-left: 3%;
+        height: 55vh;
         
     }
     .color{
@@ -307,51 +313,56 @@ span{
     /* footer  */
     footer{
         width: 100%;
-        margin: 0 4%;
-        height: 200vh;
+        margin: 3% 4%;
         display: inline;
-        justify-content: none;
-        background: rgb(32, 26, 26);
+        background: rgb(199, 33, 33);
     }
     .inter{
-        background: red;
+        margin-left: 10%;
+        height: 25vh;
         margin-left: 0;
+
     }
     .inter p{
-        font-size: 15px;
+        font-size: 22px;
         color: #000;
+        margin-left: 3%;
     }
     .inter ul li a{
         color: #000;
+        margin-left: 5%;
     }
     .icon ul li {
         color: #000;
-        font-size: 13px;
+        font-size: 12px;
+        padding: 15px;
     }
     .icon ul li a{
         padding: 4px;
+        margin-left: 1%;
     }
     .icon p{
-        font-size: 15px;
+        font-size: 20px;
         color: #000;
+        margin-left: 3%;
     }
     .lan{
-        background: blue;
         width: 100%;
-        margin-left: 0;
+        margin-left: 8%;
         height: 24vh;
+        margin-left: 0;
         
     }
     .lan text{
         font-size: 20px;
         color: #000;
+        margin-left: 3%;
     }
     .lan p{
         color: #000;
         padding:0;
     }
     .icon{
-        background: teal;
         margin-left: 0;
     }
     
