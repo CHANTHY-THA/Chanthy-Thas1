@@ -1,34 +1,36 @@
-
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: rgb(69, 139, 110);
 }
-.container{
+.navbar{
     position: sticky;
     top: 0;
 }
-ul{
-    display: flex;
-    height: 10vh;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    background: rgb(89, 165, 190);
-    margin: 0;
-}
 ul li{
-    padding: 30px;
+    padding: 0 20px;
+}
+nav{
+    background: rgb(58, 107, 116);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
+}
+iframe{
+    margin-top: 10%;
+}
+li{
+    height: 4vh;
+    margin-bottom: 0;
 }
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
 }
-ul li a:hover{
-   color: rgb(18, 18, 19);
-}
+
 /* Contact */
 .word{
    margin: 4%;
@@ -44,18 +46,13 @@ p{
 .cam{
     font-size: 25px;
     color: #fff;
-   
-   
-}
-article{
-    text-decoration: underline rgb(219, 214, 214);
 }
 .contact{
-    background: rgb(69, 139, 110);
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: space-between;
 }
+/* form  */
 form{
     width: 50%;
     color: #fff;
@@ -106,9 +103,12 @@ textarea:focus:hover{
     box-shadow: 0 0 5px #43D1AF;
 }
 /* Responsive */
-@media (max-width:700px) and (min-width:400px){
+@media (max-width:700px) and (min-width:410px){
+    nav{
+        height: 8vh;
+    }
     ul li {
-        padding: 15px;
+        padding: 10px;
         font-size: 15px;
     }
     .contact{
@@ -134,9 +134,14 @@ textarea:focus:hover{
         color: black;
     }
     input[type=submit]{
-        margin-left: 35%;
+        margin-left: 65%;
         margin-bottom: 10%;
         width: 35%;
+        background: rgb(22, 116, 153);
+
+    }
+    input[type=submit]:hover{
+        background: rgb(30, 134, 175);
     }
     .con ,.cam{
         color: black;

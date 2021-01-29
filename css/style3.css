@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* .card{
+    margin-left: 75%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background: rgb(56, 101, 116);
+}
+.container{
+    color: #fff;
+    margin-left: 10%;
+} */
+ul{
+    display: flex;
+    list-style: none;
+    background: rgb(58, 107, 116);
+    margin: 0;
+   height: 10vh;
+   align-items: center;
+   justify-content: flex-end;
+}
+ul li{
+    padding: 30px;
+
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+/* .body{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30%;
+} */
+.body{
+    display: flex;
+}
+.sibar{
+    width: 35%;
+    height: 150vh;
+    background: lightpink;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 45vh;
+    border-radius: 360px;
+    margin-left: 9%;
+    margin-top: 5vh;
+}
+.name{
+    width: 65%;
+    background: red;
+
+}
+.title{
+    background: teal;
+    margin-top: -3%;
+    height: 35vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ob{
+    background:rgb(0,0,0,0.3);
+    height: 40vh;
+}
+.data{
+    background:rgb(0,0,0,0.3);
+    height: 40vh;
+    width: 40%;
+}
+.skill{
+    width: 70%;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;height: 2vh;}
+  .css {width: 80%; background-color: #2196F3;height: 2vh;}
+  .js {width: 65%; background-color: #f44336;height: 2vh;}
+  .php {width: 60%; background-color: #808080;height: 2vh;margin-bottom: 20%;}
+  .color {
+    width: 100%;
+    background-color: #ddd;
+    width: 30%;
+    margin-left: 3%;
+    background: teal;
+    font-family: sans-serif;
+    
+  } */
