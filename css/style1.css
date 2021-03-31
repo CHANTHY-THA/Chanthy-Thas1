@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: rgb(69, 139, 110);
+ 
 }
 .navbar{
     position: sticky;
@@ -103,8 +104,17 @@ textarea:focus:hover{
     box-shadow: 0 0 5px #43D1AF;
 }
 iframe{
-    width:670px;
+    width:755px;
     height:300px;
+}
+
+footer{
+    background: rgb(29, 122, 104);
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: cursive;
 }
 /* Responsive */
 @media (max-width:700px) and (min-width:410px){
@@ -118,25 +128,17 @@ iframe{
     .contact{
         display: inline;
         height: 100vh;
-        width: 100%;
     }
     .word{
-        margin-left: 10%;
+        margin-left: 5%;
         background: rgba(0,0,0,0.3);
     }
     form{
-       
-        margin-left: 10%;
-        width: 80%;
-        height: 68vh;
-        color: black;
+        margin-left: 5%;
+        width: 90%;
+        height: 110vh;
     }
-    input[type=text],
-    input[type=email],
-    input[type=password],
-    textarea{
-        color: black;
-    }
+    
     input[type=submit]{
         margin-left: 65%;
         margin-bottom: 10%;
@@ -146,24 +148,25 @@ iframe{
     }
     input[type=submit]:hover{
         background: rgb(30, 134, 175);
-    }
-    .con ,.cam{
-        color: black;
-        
-    }
+    }  
     article , p{
         margin: 5%;
     }
     article{
         text-decoration: none;
     }
-    .ifram{
+    iframe{
         width: 100%;
-        margin-left: 0;
+        height: 20vh;
+        border-bottom: 50px;
     }
-
+    footer{
+        padding: 20px;
+        color: #fff;
+        font-size: 10px;
+    }
 }
-@media (max-width:400px) {
+/* @media (max-width:400px) {
     ul li a{
         font-size: 14px;
     }
@@ -197,4 +200,7 @@ iframe{
         width: 100%;
         margin-left: 1%;
     }
-}
+    iframe{
+        width: 10px;
+    }
+} */
